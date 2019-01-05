@@ -1,9 +1,9 @@
 ## Interrupt Generator
 
 This is a simple interrupt generator module used for OpenRISC interrupt testing
-in the [or1k-tests](../or1k-tests) project.
+in the [or1k-tests](/openrisc/or1k-tests) project.
 
-See example usage in [mor1kx-generic](../mor1kx-generic).
+See example usage in [mor1kx-generic](/stffrdhrn/mor1kx-generic).
 
 The `intgen` module provides 2 8-bit write only registers on a wishbone bus.
 The registers are an 8-bit counter and an interrupt clear register.  The counter
