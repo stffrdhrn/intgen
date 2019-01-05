@@ -1,0 +1,8 @@
+CAPI=1
+[main]
+description = Interrupt Generator For testing Processors
+
+[fileset rtl_files]
+files =
+ intgen.v
+file_type = verilogSource
