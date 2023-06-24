@@ -1,8 +1,14 @@
-CAPI=1
-[main]
-description = Interrupt Generator For testing Processors
+CAPI=2:
 
-[fileset rtl_files]
-files =
- intgen.v
-file_type = verilogSource
+name: ::intgen:1.0
+description: Wishbone interrupt generator for testing processors
+
+filesets:
+  core:
+   files: [ intgen.v ]
+   file_type: verilogSource
+
+targets:
+  default:
+    description: Contains default verilog files
+    filesets: [ core ]
